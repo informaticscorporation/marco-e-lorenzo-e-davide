@@ -1,0 +1,33 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body, #root {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  width: 50px;
+  background-color: rgb(41, 39, 88);
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #909090; 
+  border-radius: 5px;
+}
+
+
+.input-field::placeholder {
+  color: white; 
+}
